@@ -7,15 +7,15 @@ import { navBar } from "../../config";
 
 const Navigation = () => {
   return (
-    <Navbar className="py-3 blurry" bg="" expand="lg">
+    <Navbar className="py-2 blurry" bg="light" >
       <Container>
         <Navbar.Brand>
           <img
             src={navBar.logo}
-            width="35"
-            height="35"
+            width="32"
+            height="32"
             className="mr-2"
-            alt=""
+            alt="starbook logo"
           />
           {navBar.title}
         </Navbar.Brand>
