@@ -1,5 +1,4 @@
 import React from "react";
-import "./Navigation.scss";
 import {
   Navbar,
   Container,
