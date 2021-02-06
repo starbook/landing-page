@@ -1,6 +1,6 @@
 
 export const navBar = {
-    logo: logo,
-    title: "Star Book",
-    appLink: require("./assets/images/logo.png"),
+    logo: require("./assets/images/logo.png"),
+    title: "StarBook",
+    appLink: "https://github.com/hashirshoaeb/star_book",
 }
