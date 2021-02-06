@@ -1,13 +1,10 @@
 import React from "react";
-import {
-  Navbar,
-  Container,
-} from "react-bootstrap";
+import { Navbar, Container } from "react-bootstrap";
 import { navBar } from "../../config";
 
 const Navigation = () => {
   return (
-    <Navbar className="py-2 blurry" bg="light" >
+    <Navbar className="py-2 blurry" bg="light">
       <Container>
         <Navbar.Brand>
           <img
@@ -19,7 +16,9 @@ const Navigation = () => {
           />
           {navBar.title}
         </Navbar.Brand>
-        <a className="btn btn-primary rounded-pill" href={navBar.appLink}>Get App</a>
+        <a className="btn btn-primary rounded-pill" href={navBar.appLink}>
+          Get App
+        </a>
       </Container>
     </Navbar>
   );

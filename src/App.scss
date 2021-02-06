@@ -1,5 +1,3 @@
-@import "bootstrap";
-
 /* change the colors */
 $primary: rgb(0, 122, 255);
 $danger: rgb(255, 59, 48);
@@ -9,3 +7,5 @@ $info: rgb(90, 200, 250);
 $secondary: rgb(175, 82, 222);
 
 $font-family-base: -apple-system, BlinkMacSystemFont, sans-serif;
+
+@import "bootstrap";
