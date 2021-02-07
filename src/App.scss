@@ -21,6 +21,22 @@ $font-family-monospace: -apple-system, BlinkMacSystemFont, monospace;
   line-height: 1.2;
   color: $orange;
 }
+
+.display-5 {
+  font-size: 2.0rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: $black;
+}
+
 .footer-icons {
+  color: rgba(60, 60, 67, 0.6);
+}
+
+.footer-icons:hover {
   color: $orange;
+}
+
+.footer-link {
+  color: rgba(60, 60, 67, 0.6);
 }

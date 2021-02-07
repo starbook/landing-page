@@ -1,6 +1,7 @@
 import logo from "./assets/images/logo.png";
 import starbookPic from "./assets/images/main-body.png";
 import appleBadge from "./assets/images/App_Store_Badge.svg";
+import { faGithubSquare, faFacebookSquare, faInstagramSquare, faLinkedin, faTwitterSquare, } from "@fortawesome/free-brands-svg-icons";
 
 export const navBar = {
   logo: logo,
@@ -22,23 +23,42 @@ export const mainBody = {
 };
 
 export const footer = {
-  hashir: "https://github.com/hashirshoaeb",
-  bugReport: "",
-  contribute: "",
-  sourceCode: "",
-  privaryPolicy: "",
-  icons: [
+  supportList: [
     {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      text: "Source Code",
+      link: "https://github.com/hashirshoaeb/star_book",
     },
     {
-      image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
+      text: "Report Bug",
+      link: "https://github.com/hashirshoaeb/star_book/issues/new?template=bug_report.md",
     },
     {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      text: "Request feature",
+      link: "https://github.com/hashirshoaeb/star_book/issues/new?template=feature_request.md"
+    },
+    {
+      text: "Contribute to open source",
+      link: "https://github.com/hashirshoaeb/star_book/blob/master/CONTRIBUTING.md",
+    },
+  ],
+  termsPolicyLink: "https://github.com/hashirshoaeb/star_book/blob/master/PRIVACY%26POLICY.md",
+  aboutDeveloper: "I'm Hashir, developer of this app. Feel free to connect with me.",
+  socialIcons: [
+    {
+      icon: faGithubSquare,
+      link: "https://www.github.com/hashirshoaeb/",
+    },
+    {
+      icon: faTwitterSquare,
+      link: "https://www.twitter.com/hashirshoaeb/",
+    },
+    {
+      icon: faLinkedin,
+      link: "https://www.linkedin.com/in/hashirshoaeb/",
+    },
+    {
+      icon: faInstagramSquare,
+      link: "https://www.instagram.com/hashirshoaeb/",
     },
   ],
 };
