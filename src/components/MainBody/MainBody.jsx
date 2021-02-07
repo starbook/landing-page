@@ -25,7 +25,7 @@ const MainBody = () => {
               }}
             >
               <img
-                src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-US?size=250x83&releaseDate=1612569600&h=722a3ba8d332df171be6f591f0b61dcf"
+                src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/white/en-US?size=250x83&releaseDate=1612569600&h=9e9ca7fb9eb136d741621d25e5fadce8"
                 alt="Download on the App Store"
                 style={{ borderRadius: "13px", width: "250px", height: "83px" }}
               />
