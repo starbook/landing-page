@@ -3,7 +3,7 @@ import logo from "./assets/images/logo.png";
 export const navBar = {
     logo: logo,
     title: "StarBook",
-    appLink: "https://apps.apple.com/pk/app/starbook-journal-ai-diary/id1552418289",
+    link: "https://apps.apple.com/pk/app/starbook-journal-ai-diary/id1552418289",
 }
 
 export const mainBody = {

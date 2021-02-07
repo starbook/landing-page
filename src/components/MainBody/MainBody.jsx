@@ -14,7 +14,7 @@ const MainBody = () => {
           <h1 className="display-4">{mainBody.title}</h1>
           <p className="lead">{mainBody.description}</p>
           <div>
-            <button class="btn btn-outline-dark btn-icon-text">
+            <a class="btn btn-outline-dark btn-icon-text" href={mainBody.link}>
               <i class="fab fa-apple btn-icon-prepend"></i>{" "}
               <span class="d-inline-block text-left">
                 <small class="font-weight-light d-block">
@@ -22,7 +22,7 @@ const MainBody = () => {
                 </small>
                 App Store
               </span>
-            </button>
+            </a>
           </div>
         </Col>
         <Col lg="6" className="d-flex  justify-content-center">
