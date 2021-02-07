@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import starbookPic from "../../assets/images/main-body.png";
-import "./MainBody.scss";
 import { mainBody } from "../../config";
+
 const MainBody = () => {
   return (
     <Container>
@@ -14,14 +14,21 @@ const MainBody = () => {
           <h1 className="display-4">{mainBody.title}</h1>
           <p className="lead">{mainBody.description}</p>
           <div>
-            <a class="btn btn-outline-dark btn-icon-text" href={mainBody.link}>
-              <i class="fab fa-apple btn-icon-prepend"></i>{" "}
-              <span class="d-inline-block text-left">
-                <small class="font-weight-light d-block">
-                  Available on the
-                </small>
-                App Store
-              </span>
+            <a
+              href={mainBody.link}
+              style={{
+                display: "inline-block",
+                overflow: "hidden",
+                borderRadius: "13px",
+                width: "250px",
+                height: "83px",
+              }}
+            >
+              <img
+                src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/white/en-US?size=250x83&releaseDate=1612569600&h=9e9ca7fb9eb136d741621d25e5fadce8"
+                alt="Download on the App Store"
+                style={{ borderRadius: "13px", width: "250px", height: "83px" }}
+              />
             </a>
           </div>
         </Col>
