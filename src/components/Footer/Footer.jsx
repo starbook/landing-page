@@ -1,86 +1,91 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 import { navBar, footer, mainBody } from "../../config";
+import { FontAwesomeIcon, } from "@fortawesome/react-fontawesome";
+import { } from "@fortawesome/fontawesome-svg-core";
+import { } from "@fortawesome/free-solid-svg-icons";
+import { } from "@fortawesome/free-regular-svg-icons";
+
 const Footer = () => {
   return (
-    <footer className="mt-auto pt-3 bg-light">
+    <footer className="mt-5 pt-5 bg-light">
       <Container>
-        <div className="py-2">
-          <Row>
-            <Col lg="4">
-              <div className="d-flex flex-column">
-                <img
-                  src={navBar.logo}
-                  width="120"
-                  height="120"
-                  className="mb-3 shadow"
-                  alt="starbook logo"
+        <Row className="py-2">
+          <Col md="4" className="d-flex flex-column">
+            <Image
+              src={navBar.logo}
+              width="80"
+              height="80"
+              className="mb-3 shadow"
+              alt="starbook logo"
+              fluid={true}
+            />
+            <h2 className="display-5">{navBar.title}</h2>
+          </Col>
+          <Col md="4">
+            <h5>Support</h5>
+            <ul className="list-unstyled">
+              {footer.supportList.map(({ text, link }, index) => (
+                <li key={index} className="my-1">
+                  <small>
+                    <a
+                      className="footer-link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href={link}>{text}
+                    </a>
+                  </small>
+                </li>
+              ))}
+            </ul>
+          </Col>
+          <Col md="4">
+            <h5>About Developer</h5>
+            <small className="footer-link">{footer.aboutDeveloper}</small>
+            <h6 className="mt-3">Connect with me</h6>
+            {footer.socialIcons.map(({ icon, link }, index) => (
+              <a
+                key={`social-icon-${index}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                href={link}
+              >
+                <FontAwesomeIcon
+                  className="mx-1 footer-icons"
+                  icon={icon}
+                  size="2x"
                 />
-                <h1>{navBar.title}</h1>
-              </div>
-            </Col>
-            <Col lg="4">
-              <div>
-                <h5 class="text-uppercase">Support</h5>
-                <ul className="list-unstyled">
-                  <li className="my-3">
-                    <a href={footer.sourceCode}>Source Code</a>
-                  </li>
-                  <li className="my-3">
-                    <a href={footer.bugReport}>Report Bug</a>
-                  </li>
-                  <li className="my-3">
-                    <a href={footer.contribute}>Contribute</a>
-                  </li>
-                </ul>
-              </div>
-            </Col>
-            <Col lg="4">
-              <div className="">
-                <h3>About Developer</h3>
-                <a href="https://hashirshoaeb.com/">hashirshoaeb.com</a>
-                <h3 className="mt-3">Connect</h3>
-                {footer.icons.map((icon, index) => (
-                  <a
-                    key={`social-icon-${index}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href={icon.url}
-                    aria-label={`My ${icon.image.split("-")[1]}`}
-                  >
-                    <i
-                      className={`fab ${icon.image}  fa-2x  mx-2 socialicons footer-icons`}
-                    />
-                  </a>
-                ))}
-              </div>
-            </Col>
-          </Row>
-        </div>
-        <div>
-          <Row>
-            <Col lg="8">
-              <p className="text-center">
-                <i className="fas fa-code" /> with{" "}
-                <i className="fas fa-heart" /> by{" "}
-                <a
-                  className="badge badge-dark"
-                  rel="noopener"
-                  href={footer.hashir}
-                  aria-label="Hashir"
-                >
-                  Hashir Shoaib
-                </a>{" "}
-                using <i className="fab fa-react" />
-              </p>
-            </Col>
-            <Col lg="4" className="text-center">
-                <a  href={footer.privaryPolicy}>Terms & Policy</a>
-            </Col>
-          </Row>
-        </div>
+              </a>
+            ))}
+          </Col>
+        </Row>
+        <hr />
+        <Row className="pt-1 pb-3">
+          <Col md="8" className="text-center">
+            <small >
+              Made with love by{" "}
+              <a
+                className="badge badge-dark"
+                rel="noopener"
+                href={footer.hashir}
+              >
+                hashirshoaeb
+              </a>
+            </small>
+          </Col>
+          <Col md="4" className="text-center">
+            <small>
+              <a
+                className="footer-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                href={footer.termsPolicyLink}>Terms & Policy
+                </a>
+            </small>
+          </Col>
+        </Row>
       </Container>
-    </footer>
+    </footer >
   );
 };
 
