@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar, Container } from "react-bootstrap";
+import { Navbar, Container, Image } from "react-bootstrap";
 import { navBar } from "../../config";
 
 const Navigation = () => {
@@ -7,7 +7,7 @@ const Navigation = () => {
     <Navbar className="py-2 blurry" bg="light">
       <Container>
         <Navbar.Brand>
-          <img
+          <Image
             src={navBar.logo}
             width="32"
             height="32"
