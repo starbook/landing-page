@@ -26,8 +26,11 @@ const MainBody = () => {
             })
           }
         </Col>
-        <Col md="6" className="">
-          <Image width="350" src={mainBody.bgImage} alt="starbook home screen" fluid={true} />
+        <Col md="6" >
+          <Image
+            style={{ display: "block", margin: "0 auto", }}
+            width="350"
+            src={mainBody.bgImage} alt="starbook home screen" fluid={true} />
         </Col>
       </Row>
     </Container>
