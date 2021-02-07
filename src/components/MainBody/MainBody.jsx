@@ -25,8 +25,8 @@ const MainBody = () => {
             </button>
           </div>
         </Col>
-        <Col lg="6" className="d-flex justify-content-center">
-          <img width="250px" src={starbookPic} alt="" />
+        <Col lg="6" className="d-flex  justify-content-center">
+          <img width="350px" src={starbookPic} alt="starbook home screen" />
         </Col>
       </Row>
     </Container>

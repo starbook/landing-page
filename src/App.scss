@@ -1,11 +1,23 @@
 /* change the colors */
-$primary: rgb(0, 122, 255);
-$danger: rgb(255, 59, 48);
-$success: rgb(52, 199, 89);
-$warning: rgb(255, 149, 0);
-$info: rgb(90, 200, 250);
-$secondary: rgb(175, 82, 222);
+$blue: rgb(0, 122, 255);
+$indigo: #6610f2 !default;
+$purple: rgb(175, 82, 222);
+$pink: #e83e8c !default;
+$red: rgb(255, 59, 48);
+$orange: rgb(255, 149, 0);
+$yellow: rgb(255, 204, 0);
+$green: rgb(52, 199, 89);
+$teal: #20c997 !default;
+$cyan: rgb(90, 200, 250);
 
 $font-family-base: -apple-system, BlinkMacSystemFont, sans-serif;
+$font-family-monospace:  -apple-system, BlinkMacSystemFont, monospace;
 
-@import "bootstrap";
+@import "~bootstrap/scss/bootstrap.scss";
+
+.display-4 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: $orange;
+}
