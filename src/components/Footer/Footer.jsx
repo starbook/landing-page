@@ -61,7 +61,7 @@ const Footer = () => {
         </Row>
         <hr />
         <Row className="pt-1 pb-3">
-          <Col md="8" className="text-center">
+          <Col md="4" className="text-center">
             <small >
               Made with love by{" "}
               <a
@@ -73,6 +73,7 @@ const Footer = () => {
               </a>
             </small>
           </Col>
+          <Col md="4" className="d-none d-md-block"></Col>
           <Col md="4" className="text-center">
             <small>
               <a
