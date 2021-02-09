@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <h1 align="center">Landing page for StarBook ✨ app</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <p align="center">
+    StarBook is a digital diary that can help you in keeping track of your mood and productivity throughout the month. Mood tracker is a good way to see how you are mostly feeling.
+    <br />
+    <br />
+    <a href="https://hashirshoaeb.com">About Me</a>
+    ·
+    <a href="https://github.com/starbookapp/landing-page/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/starbookapp/landing-page/issues">Request Feature</a>
+  </p>
+</p>
 
-## Available Scripts
+[![GitHub contributors](https://img.shields.io/github/contributors/starbookapp/landing-page?color=ffcc66&style=for-the-badge)](https://github.com/starbookapp/landing-page/graphs/contributors)
+[![GitHub stars](https://img.shields.io/github/stars/starbookapp/landing-page?color=ffcc66&logo=StarBook&style=for-the-badge)](https://github.com/starbookapp/landing-page/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/starbookapp/landing-page?style=for-the-badge)](https://github.com/starbookapp/landing-page/network)
+[![GitHub issues](https://img.shields.io/github/issues/starbookapp/landing-page?color=ffcc66&style=for-the-badge)](https://github.com/starbookapp/landing-page/issues)
+[![GitHub license](https://img.shields.io/github/license/starbookapp/landing-page?style=for-the-badge)](https://github.com/starbookapp/landing-page/blob/master/LICENSE)
+[![Twitter Follow](https://img.shields.io/twitter/follow/hashirshoaeb?color=ffcc66&logo=twitter&logoColor=ffffff&style=for-the-badge)](https://twitter.com/hashirshoaeb)
 
-In the project directory, you can run:
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+To get a local copy up and running follow these simple steps.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. To get started, fork this repository to your GitHub account.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+2. Clone the repo.
+    ```sh
+     git clone https://github.com/<your-username>/landing-page.git
+    ```
+3. Install packages.
+    ```sh
+     npm install
+    ```
+4. Run project.
+    ```sh
+     npm start
+    ```
