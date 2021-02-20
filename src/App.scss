@@ -10,6 +10,8 @@ $green: rgb(52, 199, 89);
 $teal: #20c997 !default;
 $cyan: rgb(90, 200, 250);
 
+$warning: $orange;
+
 $font-family-base: -apple-system, BlinkMacSystemFont, sans-serif;
 $font-family-monospace: -apple-system, BlinkMacSystemFont, monospace;
 
@@ -39,4 +41,13 @@ $font-family-monospace: -apple-system, BlinkMacSystemFont, monospace;
 
 .footer-link {
   color: rgba(60, 60, 67, 0.6);
+}
+
+.get-add-btn{
+  background-color: $orange;
+  color: white;
+}
+
+.get-add-btn:hover{
+  color: white;
 }

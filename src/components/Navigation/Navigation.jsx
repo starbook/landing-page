@@ -16,7 +16,7 @@ const Navigation = () => {
           />
           {navBar.title}
         </Navbar.Brand>
-        <a className="btn btn-primary rounded-pill" href={navBar.link}>
+        <a className="btn btn-warning text-white rounded-pill" href={navBar.link}>
           Get App
         </a>
       </Container>
