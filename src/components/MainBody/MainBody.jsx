@@ -18,7 +18,7 @@ const MainBody = () => {
                 <a href={link} key={index}>
                   <Image
                     src={image}
-                    className="shadow-lg"
+                    className="img-shadow"
                     alt="Download StarBook on the App Store"
                     style={{ height: "60px", margin: "40px" }}
                   />
@@ -30,8 +30,11 @@ const MainBody = () => {
         <Col md="6" >
           <Image
             style={{ display: "block", margin: "0 auto", }}
+            className="img-shadow"
             width="350"
-            src={mainBody.bgImage} alt="starbook home screen" className="" fluid={true} />
+            src={mainBody.bgImage}
+            alt="starbook home screen"
+            fluid={true} />
         </Col>
       </Row>
     </Container>

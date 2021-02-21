@@ -43,11 +43,7 @@ $font-family-monospace: -apple-system, BlinkMacSystemFont, monospace;
   color: rgba(60, 60, 67, 0.6);
 }
 
-.get-add-btn{
-  background-color: $orange;
-  color: white;
-}
-
-.get-add-btn:hover{
-  color: white;
+.img-shadow {
+  -webkit-filter: drop-shadow(0.5rem 1rem 1.5rem  rgba($black, .175) );
+  filter: drop-shadow(0.5rem 1rem 1.5rem  rgba($black, .175));
 }
