@@ -9,17 +9,17 @@
     <br />
     <a href="https://hashirshoaeb.com">About Me</a>
     ·
-    <a href="https://github.com/starbookapp/landing-page/issues">Report Bug</a>
+    <a href="https://github.com/starbook/landing-page/issues">Report Bug</a>
     ·
-    <a href="https://github.com/starbookapp/landing-page/issues">Request Feature</a>
+    <a href="https://github.com/starbook/landing-page/issues">Request Feature</a>
   </p>
 </p>
 
-[![GitHub contributors](https://img.shields.io/github/contributors/starbookapp/landing-page?color=ffcc66&style=for-the-badge)](https://github.com/starbookapp/landing-page/graphs/contributors)
-[![GitHub stars](https://img.shields.io/github/stars/starbookapp/landing-page?color=ffcc66&logo=StarBook&style=for-the-badge)](https://github.com/starbookapp/landing-page/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/starbookapp/landing-page?style=for-the-badge)](https://github.com/starbookapp/landing-page/network)
-[![GitHub issues](https://img.shields.io/github/issues/starbookapp/landing-page?color=ffcc66&style=for-the-badge)](https://github.com/starbookapp/landing-page/issues)
-[![GitHub license](https://img.shields.io/github/license/starbookapp/landing-page?style=for-the-badge)](https://github.com/starbookapp/landing-page/blob/master/LICENSE)
+[![GitHub contributors](https://img.shields.io/github/contributors/starbookapp/landing-page?color=ffcc66&style=for-the-badge)](https://github.com/starbook/landing-page/graphs/contributors)
+[![GitHub stars](https://img.shields.io/github/stars/starbook/landing-page?color=ffcc66&logo=StarBook&style=for-the-badge)](https://github.com/starbook/landing-page/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/starbook/landing-page?style=for-the-badge)](https://github.com/starbook/landing-page/network)
+[![GitHub issues](https://img.shields.io/github/issues/starbook/landing-page?color=ffcc66&style=for-the-badge)](https://github.com/starbook/landing-page/issues)
+[![GitHub license](https://img.shields.io/github/license/starbook/landing-page?style=for-the-badge)](https://github.com/starbook/landing-page/blob/master/LICENSE)
 [![Twitter Follow](https://img.shields.io/twitter/follow/hashirshoaeb?color=ffcc66&logo=twitter&logoColor=ffffff&style=for-the-badge)](https://twitter.com/hashirshoaeb)
 
 
