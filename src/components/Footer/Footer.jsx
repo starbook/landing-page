@@ -61,19 +61,22 @@ const Footer = () => {
         </Row>
         <hr />
         <Row className="pt-1 pb-3">
-          <Col md="4" className="text-center">
+          <Col md="6" className="text-center">
             <small >
-              Made with love by{" "}
-              <a
-                className="badge badge-dark"
-                rel="noopener"
-                href={footer.hashir}
-              >
-                hashirshoaeb
-              </a>
+              <p>
+                <span>&#169;</span> 2021 StarBook, the source code of this site is licensed under a {" "}
+                <a
+                  className="footer-link"
+                  href="https://github.com/starbook/landing-page/blob/master/LICENSE"
+                  rel="noopener"
+                >
+                  MIT License
+                </a>
+                .
+              </p>
             </small>
           </Col>
-          <Col md="4" className="d-none d-md-block"></Col>
+          <Col md="2" className="d-none d-md-block"></Col>
           <Col md="4" className="text-center">
             <small>
               <a
